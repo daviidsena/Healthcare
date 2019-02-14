@@ -1,0 +1,22 @@
+.header {
+    box-sizing: content-box;
+    padding: 10px 10px;
+    display: grid;
+    grid-template-columns: 500px;
+    grid-template-rows: auto;
+    overflow: hidden;
+    align-items: baseline;
+    justify-content: space-evenly;
+}
+
+.sub{
+    grid-column-start: 1;
+    grid-column-end: 6;
+}
+
+hr{
+    margin-top: 0;
+}
+.title{
+    font-family: 'Montserrat', sans-serif;
+}

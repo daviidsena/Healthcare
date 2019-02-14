@@ -1,0 +1,40 @@
+.menu-container {
+    grid-area: menu;
+    color: white;
+    background-color: var(--top-footer-color);
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+}
+.logo {
+    width: var(--logo-height);
+    font-size: 25px;
+}
+.menu {
+    width: 100vw;
+    height: var(--menu-height);
+    display: flex;
+    justify-content: space-around;
+    font-weight: bold;
+}
+.menu-area {
+    justify-content: flex-end;
+    text-transform: uppercase;
+    align-self: flex-end;
+    width: 400px;
+}
+.btn {
+    color: white;
+    padding: 0;
+    margin-right: 10px;
+    margin-bottom: 0px;
+    border-radius: 0;
+    border-right: 0;
+    border-left: 0;
+}
+.btn:hover{
+    color: white;
+    border-right: 0;
+    border-left: 0;
+    border-bottom: 2px solid red;
+}
